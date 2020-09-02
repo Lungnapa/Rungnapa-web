@@ -30,11 +30,12 @@ const Header = (props) => {
             <NavItem>
               <NavLink tag={Link} to="/about/">เกี่ยวกับเรา</NavLink>
             </NavItem>
+            
             <NavItem>
               <NavLink tag={Link} to="/contact">ติดต่อเรา</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag={Link} to="/profile">ข้อมูลส่วนตัว</NavLink>
+              <NavLink tag={Link} to="/products">สินค้า</NavLink>
             </NavItem>
           </Nav>
           <Nav className="ml-auto" navbar>

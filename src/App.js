@@ -9,6 +9,7 @@ import Home from './components/Home';
 import Profile from './components/Profile';
 import Signup from './components/Signup';
 import Signin from './components/Signin';
+import Products from './components/Products';
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
         <Route path="/profile" component={Profile} />
         <Route path="/signup" component={Signup} />
         <Route path="/signin" component={Signin} />
+        <Route path="/products" component={Products} />
         </div>
         <Footer/>
     </div>
